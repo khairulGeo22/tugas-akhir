@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pengumpulan Tugas Akhir – Strategi Pembelajaran Geografi</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- BACKGROUND MUSIC -->
+  <audio autoplay loop hidden>
+    <source src="asset/Mangu-musiclatar.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <h1>Selamat Datang, Mahasiswa Pendidikan Geografi</h1>
+    <p class="subheadline">
+      Universitas Almuslim – Para Calon Pemimpin Perubahan dan Penjaga Bumi Masa Depan
+    </p>
+    <div class="nav-buttons">
+      <button onclick="scrollToSection('tentang')">📖 Tentang Tugas</button>
+      <button onclick="scrollToSection('upload')">📤 Kirim Tugas</button>
+    </div>
+  </header>
+
+  <div class="icon-grid">
+  <div><i class="fas fa-water"></i><p>Fenomena Air</p></div>
+  <div><i class="fas fa-wind"></i><p>Fenomena Udara</p></div>
+  <div><i class="fas fa-mountain"></i><p>Fenomena Litosfer</p></div>
+  <div><i class="fas fa-users"></i><p>Fenomena Sosial</p></div>
+  </div>
+
+  <!-- TENTANG TUGAS -->
+  <section id="tentang" class="content-section">
+    <h2>📘 Panduan Penulisan Artikel Tugas Akhir</h2>
+    <p>Artikel ilmiah populer ini merupakan tugas akhir dari mata kuliah <strong>Strategi Pembelajaran Geografi</strong>. Tujuannya adalah melatih mahasiswa dalam menulis, berpikir kritis, dan menyusun gagasan secara sistematis berbasis kajian literatur.</p>
+    <h3>Struktur Artikel:</h3>
+    <ul>
+      <li><strong>Judul:</strong> Singkat, padat, dan mencerminkan isi</li>
+      <li><strong>Abstrak:</strong> Ringkasan 100–150 kata</li>
+      <li><strong>Pendahuluan:</strong> Latar belakang, rumusan masalah, tujuan, manfaat</li>
+      <li><strong>Metode:</strong> Kajian pustaka/studi literatur</li>
+      <li><strong>Hasil & Pembahasan:</strong> Pemaparan dan analisis</li>
+      <li><strong>Kesimpulan & Saran</strong></li>
+      <li><strong>Daftar Pustaka:</strong> Minimal 3 sumber, gunakan format APA Style</li>
+    </ul>
+    <p>Artikel diketik dalam <strong>1.500–2.000 kata</strong> dan dikumpulkan paling lambat <strong>22 Juli 2025 pukul 23.59 WIB</strong>.</p>
+    <p><strong>Dosen Pengampu:</strong> Muhammad Khairul, S.Pd., M.Pd. & Andika Safwan, S.Pd., M.Pd.</p>
+  </section>
+
+  <!-- PENGUMPULAN -->
+  <section id="upload" class="content-section">
+    <h2>📥 Kirim Artikel Anda</h2>
+    <p>Klik tombol di bawah ini untuk mengisi formulir dan mengunggah file artikel Anda (.pdf/.docx).</p>
+    <div class="button-container">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdAxQ56_Tsx2epE-4mHqClIWt9QE6ahAU6s1rFpyRtl30U6rQ/viewform?usp=dialog" target="_blank" class="button">
+        📤 Kirim Tugas via Google Form
+      </a>
+      <a href="https://drive.google.com/drive/folders/1dar0VLbwGCN71EQ94Qd08uDtLlv9uEKr?usp=sharing" target="_blank" class="button green">
+        📁 Lihat Folder Google Drive
+      </a>
+    </div>
+    <div id="countdown">
+      <p>⏳ Batas akhir pengumpulan:</p>
+      <p id="timer"></p>
+    </div>
+  </section>
+
+  <!-- PROFIL DOSEN -->
+  <section class="dosen-profile">
+    <h2>👨‍🏫 Dosen Pengampu</h2>
+    <div class="dosen-container">
+      <div class="dosen-item">
+        <img src="asset/fotodosen1.JPG" alt="Foto Muhammad Khairul" class="dosen-foto" />
+        <div class="dosen-bio">
+          <h3>Muhammad Khairul, S.Pd., M.Pd.</h3>
+          <p>Dosen Peambantu MK</p>
+          <p>FKIP Universitas Almuslim</p>
+        </div>
+      </div>
+      <div class="dosen-item">
+        <img src="asset/pak andika.jpg" alt="Foto Andika Safwan" class="dosen-foto" />
+        <div class="dosen-bio">
+          <h3>Andika Safwan, S.Pd., M.Pd.</h3>
+          <p>Dosen Pendidikan Geografi</p>
+          <p>FKIP Universitas Almuslim</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERI FOTO -->
+  <section class="gallery-section">
+    <h2>📸 Dokumentasi Perkuliahan</h2>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="asset/galeri-kuliah/Screenshot (1306) - Salin.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="asset/galeri-kuliah/Screenshot (1307) - Salin.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="asset/galeri-kuliah/Screenshot (1308) - Salin.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="asset/galeri-kuliah/Screenshot (1309) - Salin.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="asset/galeri-kuliah/Screenshot (1310) - Salin.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="asset/galeri-kuliah/Screenshot (1401) - Salin.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="asset/galeri-kuliah/Screenshot (1405) - Salin.png" style="width:100%">
+      </div>
+    </div>
+  </section>
+
+  <!-- TIM PENGELOLA -->
+  <section class="team-section">
+    <h2>👥 Tim Pengelola Website</h2>
+    <div class="team-container">
+      <div class="team-member">
+        <img src="tim1.jpg" alt="Tim 1">
+        <p><strong>Muhammad Thaha</strong><br>Simpul Project Academy</p>
+      </div>
+      <div class="team-member">
+        <img src="tim2.jpg" alt="Tim 2">
+        <p><strong>Siti Fatimatuzzahra</strong><br>Simpul Project Academy</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 – Dosen Pengampu: Muhammad Khairul & Andika Safwan | Produk oleh: <strong>CV. Simpul Project Academy</strong></p>
+  </footer>
+
+</body>
+</html>
