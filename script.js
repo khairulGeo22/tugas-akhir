@@ -1,5 +1,5 @@
 // === COUNTDOWN TIMER ===
-const deadline = new Date("2025-07-22T23:59:00").getTime();
+const deadline = new Date("2025-07-17T23:59:00").getTime();
 const timerElement = document.getElementById("timer");
 
 function updateCountdown() {
